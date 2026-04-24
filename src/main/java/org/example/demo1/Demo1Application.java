@@ -13,11 +13,18 @@ public class Demo1Application {
         System.out.println("Hello from Demo1Application!");
     }
 
-    public int addNumbers(int a, int b) {
+    public int addNumbers1(int a, int b) {
         return a + b;
     }
 
     public String getStatus() {
+        return "Application is running";
+    }
+
+    public String getStatus1() {
+        return "Application is running";
+    }
+    public String getStatus2() {
         return "Application is running";
     }
 
